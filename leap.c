@@ -3,7 +3,7 @@
 
 int main(int argc, char ** argv){
     if (argc !=2 ){
-        printf("Falsche Zahl an parametern angegeben. Bitte nur eine Jahresazhl!");
+        printf("Falsche Zahl an parametern angegeben. Bitte nur eine Jahreszahl!");
     }
     int jahr = atoi(argv[1]);
     if (((jahr % 4 == 0) && (jahr % 100 != 0)) || (jahr % 400 == 0)) {
