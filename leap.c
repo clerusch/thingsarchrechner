@@ -6,7 +6,6 @@ int main(int argc, char ** argv){
         printf("Falsche Zahl an parametern angegeben. Bitte nur eine Jahreszahl!");
         return EXIT_FAILURE;
     }
-
     int jahr = atoi(argv[1]);
     if (((jahr % 4 == 0) && (jahr % 100 != 0)) || (jahr % 400 == 0)) {
         printf("Das Jahr %d ist ein Schaltjahr :-)", jahr);
